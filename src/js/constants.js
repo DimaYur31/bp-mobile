@@ -1,0 +1,1 @@
+export const LANGUAGES = new Map([['de', 'de'], ['en', 'en'], ['es', 'es'], ['fr', 'fr'], ['ja', 'ja'], ['pt', 'pt']]);
