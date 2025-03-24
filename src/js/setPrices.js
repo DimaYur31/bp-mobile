@@ -6,11 +6,11 @@
  * 		Пример - '{{price}}'
  * @returns {string} layout, Html разметка документа со вставленными ценами
  */
-export function setPrices(layout, prices = ['39.99', '0.48', '6.99'], substr = '{{price}}') {
+export function setPrices(layout, prices = ['$39.99', '$0.48', '$6.99'], substr = '{{price}}') {
 	let priceCount = 0;
 
 	while (priceCount < prices.length && layout.includes(substr)) {
-		layout = layout.replace(substr, `$${prices[priceCount]}`);
+		layout = layout.replace(substr, `${prices[priceCount]}`);
 		++priceCount;
 	}
 
