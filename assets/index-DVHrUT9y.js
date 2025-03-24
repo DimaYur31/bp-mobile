@@ -39,4 +39,4 @@
 		<a href="#">Privacy Policy</a>
 		<a href="#">Restore</a>
 	</nav>
-`;function d(r,e=u){for(let n of r)e=e.replaceAll(`${n[0]}`,`${n[1]}`);return e}function p(r,e=["39.99","0.48","6.99"],n="{{price}}"){let a=0;for(;a<e.length&&r.includes(n);)r=r.replace(n,`$${e[a]}`),++a;return r}(async function(){var n;c();const r=await l();document.querySelector("#app").innerHTML=p(d(r));const e=document.querySelector(".white-button");e&&((n=document.querySelector(".panel"))==null||n.addEventListener("change",a=>{e.href=a.target.value}))})();
+`;function d(r,e=u){for(let n of r)e=e.replaceAll(`${n[0]}`,`${n[1]}`);return e}function p(r,e=["$39.99","$0.48","$6.99"],n="{{price}}"){let a=0;for(;a<e.length&&r.includes(n);)r=r.replace(n,`${e[a]}`),++a;return r}(async function(){var n;c();const r=await l();document.querySelector("#app").innerHTML=p(d(r));const e=document.querySelector(".white-button");e&&((n=document.querySelector(".panel"))==null||n.addEventListener("change",a=>{e.href=a.target.value}))})();
