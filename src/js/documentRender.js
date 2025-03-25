@@ -6,16 +6,28 @@ const layout = `
 	</a>
 	<h1>Get Unlimited <br>Access</h1>
 	<div class="cards">
-		<div>
-			<img src="img1.webp" alt="Unlimited Art <br>Creation">
+		<div>			
+			<picture>
+				<source srcset="img1-3x.webp" media="(min-resolution: 3dppx)">
+				<source srcset="img1-2x.webp" media="(min-resolution: 2dppx)">
+				<img src="img1.webp" alt="Unlimited Art <br>Creation">
+			</picture>
 			<p>Unlimited Art <br>Creation</p>
 		</div>
 		<div>
-			<img src="img2.webp" alt="Exclusive <br>Styles">
+			<picture>
+				<source srcset="img2-3x.webp" media="(min-resolution: 3dppx)">
+				<source srcset="img2-2x.webp" media="(min-resolution: 2dppx)">
+				<img src="img2.webp" alt="Exclusive <br>Styles">
+			</picture>
 			<p>Exclusive <br>Styles</p>
 		</div>
 		<div>
-			<img src="img3.webp" alt="Magic Avatars <br>With 20% Off">
+			<picture>
+				<source srcset="img3-3x.webp" media="(min-resolution: 3dppx)">
+				<source srcset="img3-2x.webp" media="(min-resolution: 2dppx)">
+				<img src="img3.webp" alt="Magic Avatars <br>With 20% Off">
+			</picture>
 			<p>Magic Avatars <br>With 20% Off</p>
 		</div>
 	</div>
