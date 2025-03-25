@@ -89,7 +89,6 @@ body {
 h1 {
 	margin-top: auto;
 	font-size: 2.875rem;
-	/* font-weight: 900; */
 	font-weight: 600;
 	text-align: center;
 }
@@ -346,6 +345,30 @@ nav a {
 
 	nav {
 		margin-bottom: 4.5dvh;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (max-height: 736px) {
+	body {
+		background: url(../public/Arta_8iphone_1-x2.webp) center top / 100% auto no-repeat, #05010E;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 3) and (max-height: 736px) {
+	body {
+		background: url(../public/Arta_8iphone_1-x3.webp) center top / 100% auto no-repeat, #05010E;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-height: 737px) {
+	body {
+		background: url(../public/Arta_13iphone_1-x2.webp) center top / 100% auto no-repeat, #05010E;
+	}
+}
+
+@media (-webkit-min-device-pixel-ratio: 3) and (min-height: 737px) {
+	body {
+		background: url(../public/Arta_13iphone_1-x3.webp) center top / 100% auto no-repeat, #05010E;
 	}
 }
 
